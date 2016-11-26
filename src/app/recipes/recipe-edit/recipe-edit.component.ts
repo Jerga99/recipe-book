@@ -76,7 +76,7 @@ export class RecipeEditComponent implements OnInit, OnDestroy {
     this.router.navigate(['../']);
   }
 
-  private initForm(isNew: boolean) {
+  private initForm() {
 
     let recipeName = '';
     let recipeImageUrl = '';
